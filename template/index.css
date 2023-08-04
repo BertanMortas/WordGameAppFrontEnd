@@ -1,0 +1,439 @@
+.frame-child {
+    position: relative;
+    width: 300px;
+    height: 45.84px;
+}
+.div,
+.renci {
+    position: relative;
+    font-weight: 300;
+}
+.renci {
+    font-size: var(--heading-h4-size);
+    font-weight: 600;
+}
+.group-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.account-circle-fill1-wght500-g-icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.account-circle-fill1-wght500-g-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 36px;
+}
+.frame-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    border-bottom: 7px solid var(--color-deepskyblue);
+    box-sizing: border-box;
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+}
+.renci-mlakatlar {
+    position: absolute;
+    top: 33px;
+    left: 179px;
+    font-weight: 600;
+    display: inline-block;
+    width: 219px;
+}
+.mainframe-child {
+    position: absolute;
+    height: 9.31%;
+    width: 5.08%;
+    top: 1.81%;
+    right: 87.05%;
+    bottom: 88.89%;
+    left: 7.88%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.mlakat-olutur {
+    position: absolute;
+    top: 113px;
+    left: 77px;
+    font-weight: 600;
+    display: inline-block;
+    width: 188px;
+    height: 30px;
+}
+.kaydet {
+    position: relative;
+    font-weight: 500;
+}
+.kaydet-wrapper {
+    top: 467px;
+    left: 650px;
+    border-radius: var(--br-3xs);
+    background-color: #009f3e;
+    width: 145px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) var(--padding-23xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+}
+.kaydet-wrapper,
+.mainframe,
+.temizle-wrapper {
+    position: absolute;
+    overflow: hidden;
+}
+.temizle-wrapper {
+    top: 467px;
+    left: 474px;
+    border-radius: var(--br-3xs);
+    background-color: var(
+            --bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-30
+    );
+    width: 145px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) var(--padding-23xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+}
+.mainframe {
+    top: 208px;
+    left: 155px;
+    width: 1320px;
+    height: 720px;
+    font-size: var(--heading-h4-size);
+}
+.occupation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+}
+.listbox-title,
+.listboxbg {
+    position: absolute;
+    height: 6.92%;
+    width: 90.91%;
+    top: 0;
+    right: 4.55%;
+    bottom: 93.08%;
+    left: 4.55%;
+}
+.listboxbg {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+.chevron-icon {
+    position: absolute;
+    height: 10.67%;
+    width: 4.01%;
+    top: 45.5%;
+    right: 7.64%;
+    bottom: 43.83%;
+    left: 88.35%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.8;
+}
+.select-occupation {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.listbox-main,
+.placeholder-text {
+    position: absolute;
+    height: 33.33%;
+    width: 65.71%;
+    top: 33.33%;
+    right: 28.57%;
+    bottom: 33.33%;
+    left: 5.71%;
+}
+.listbox-main {
+    height: 20.76%;
+    width: 90.91%;
+    top: 9.69%;
+    right: 4.55%;
+    bottom: 69.55%;
+    left: 4.55%;
+    font-size: var(--font-size-sm);
+    color: #666;
+    font-family: var(--font-montserrat);
+}
+.div1 {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.item-1,
+.item-2 {
+    align-self: stretch;
+    position: relative;
+    height: 44px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.item-2 {
+    background-color: var(--color-white);
+}
+.clip-list,
+.dropdown-list {
+    position: absolute;
+    overflow: hidden;
+}
+.dropdown-list {
+    width: 90.91%;
+    top: 68px;
+    right: 4.55%;
+    left: 4.55%;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+.clip-list {
+    height: 90.31%;
+    width: 100%;
+    top: 9.69%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.listbox-component {
+    position: absolute;
+    top: 392px;
+    left: 202px;
+    width: 351px;
+    height: 289px;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray-200);
+}
+.frame-parent {
+    position: absolute;
+    top: 1px;
+    left: 300px;
+    width: 1320px;
+    height: 1080px;
+    font-size: 28px;
+    color: var(--color-black);
+}
+.label {
+    position: absolute;
+    width: 86.57%;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    display: inline-block;
+}
+.placeholder {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+}
+.placeholder-wrapper {
+    position: absolute;
+    height: 60.29%;
+    width: 100%;
+    top: 39.71%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    border: 1px solid
+    var(--bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-30);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-base);
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+    color: var(--bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-30);
+}
+.input,
+.input1,
+.input2 {
+    position: absolute;
+    top: 395px;
+    left: 902px;
+    width: 350px;
+    height: 68px;
+}
+.input1,
+.input2 {
+    top: 477px;
+}
+.input2 {
+    top: 570px;
+}
+.vector-icon {
+    position: relative;
+    width: 21.2px;
+    height: 23.85px;
+}
+.renci-lemleri {
+    position: relative;
+    letter-spacing: 0.05em;
+}
+.vector-parent {
+    border-radius: 13.25px;
+    background-color: var(--color-deepskyblue);
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    padding: 21.203125px 39.755859375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-12xl-8);
+    max-height: 721px;
+    color: var(--color-white);
+}
+.group-icon {
+    position: relative;
+    width: 23.85px;
+    height: 23.85px;
+}
+.mlakat {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+.group-group {
+    border-radius: var(--br-mini);
+    background-color: var(
+            --bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-30
+    );
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    padding: 21.203125px 39.755859375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-12xl-8);
+}
+.frame-item {
+    position: relative;
+    width: 23.85px;
+    height: 21.2px;
+}
+.group-container {
+    border-radius: var(--br-mini);
+    background-color: var(--color-gainsboro);
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    padding: 21.203125px 39.755859375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-12xl-8);
+}
+.group-icon1,
+.vector-icon3 {
+    position: relative;
+    width: 23.85px;
+    height: 19.88px;
+}
+.vector-icon3 {
+    width: 25.18px;
+    height: 25.18px;
+}
+.vector-parent2 {
+    border-radius: var(--br-mini);
+    background-color: var(--color-gainsboro);
+    width: 324px;
+    display: flex;
+    flex-direction: row;
+    padding: 21.203125px 39.755859375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-12xl-8);
+}
+.frame-container,
+.vector-parent3 {
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+.frame-container {
+    top: 0;
+    width: 191px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.33px;
+}
+.vector-parent3 {
+    top: 619px;
+    border-radius: var(--br-mini);
+    background-color: rgba(255, 0, 46, 0.87);
+    width: 324px;
+    flex-direction: row;
+    padding: 21.203125px 39.755859375px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-12xl-8);
+}
+.sidebar {
+    position: absolute;
+    top: 246px;
+    left: 72px;
+    width: 325px;
+    height: 693px;
+    font-size: var(--font-size-2xl-2);
+    color: var(--color-darkslategray-100);
+    font-family: var(--font-poppins);
+}
+.mlakatsayfasi {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-60);
+    font-family: var(--heading-h4);
+}

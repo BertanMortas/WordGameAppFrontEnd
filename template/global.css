@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --heading-h4: Inter;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-2xl-2: 21.2px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --heading-h4-size: 23px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #414b59;
+  --bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-60: #363e4a;
+  --color-darkslategray-200: #333;
+  --color-gainsboro: #dfdfdf;
+  --bilge-adam-akademi-neutral-color-grey-bilgeadamgrey-30: #a7b1be;
+  --color-deepskyblue: #3babe1;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-12xl-8: 31.8px;
+
+  /* Paddings */
+  --padding-2xl-2: 21.2px;
+  --padding-20xl-8: 39.8px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-6xs: 7px;
+  --padding-23xl: 42px;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+}
